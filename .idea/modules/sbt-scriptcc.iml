@@ -36,8 +36,8 @@
     <orderEntry type="library" scope="PROVIDED" name="sbt: net.java.dev.jna:jna-platform:5.5.0:jar" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="sbt: net.java.dev.jna:jna:5.5.0:jar" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="sbt: net.openhft:zero-allocation-hashing:0.10.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: nl.uva.sne.cci:parser:0.2.7.M2:jar" level="project" />
-    <orderEntry type="library" name="sbt: nl.uva.sne.cci:scala-generator:0.2.7.M2:jar" level="project" />
+    <orderEntry type="library" name="sbt: nl.uva.sne.cci:parser:0.2.10:jar" level="project" />
+    <orderEntry type="library" name="sbt: nl.uva.sne.cci:scala-generator:0.2.10:jar" level="project" />
     <orderEntry type="library" name="sbt: org.antlr:ST4:4.3:jar" level="project" />
     <orderEntry type="library" name="sbt: org.antlr:antlr-runtime:3.5.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.antlr:antlr4-runtime:4.8:jar" level="project" />
