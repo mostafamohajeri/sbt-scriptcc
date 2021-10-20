@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/scala" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/test/scala" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.12/sbt-1.0/resource_managed/main" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target" />
       <excludeFolder url="file://$MODULE_DIR$/../../target/global-logging" />
       <excludeFolder url="file://$MODULE_DIR$/../../target/streams" />
       <excludeFolder url="file://$MODULE_DIR$/../../target/task-temp-directory" />
@@ -36,8 +37,8 @@
     <orderEntry type="library" scope="PROVIDED" name="sbt: net.java.dev.jna:jna-platform:5.5.0:jar" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="sbt: net.java.dev.jna:jna:5.5.0:jar" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="sbt: net.openhft:zero-allocation-hashing:0.10.1:jar" level="project" />
-    <orderEntry type="library" name="sbt: nl.uva.sne.cci:parser:0.2.10:jar" level="project" />
-    <orderEntry type="library" name="sbt: nl.uva.sne.cci:scala-generator:0.2.10:jar" level="project" />
+    <orderEntry type="library" name="sbt: nl.uva.sne.cci:parser:2.22:jar" level="project" />
+    <orderEntry type="library" name="sbt: nl.uva.sne.cci:scala-generator:2.22:jar" level="project" />
     <orderEntry type="library" name="sbt: org.antlr:ST4:4.3:jar" level="project" />
     <orderEntry type="library" name="sbt: org.antlr:antlr-runtime:3.5.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.antlr:antlr4-runtime:4.8:jar" level="project" />
