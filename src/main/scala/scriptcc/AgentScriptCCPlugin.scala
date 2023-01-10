@@ -15,7 +15,7 @@ object AgentScriptCCPlugin extends AutoPlugin {
     // default values for the tasks and settings
     lazy val baseScriptCCSettings: Seq[Def.Setting[_]] = Seq(
       agentScriptCC := {
-        Translate((agentScriptCCPath in agentScriptCC).value,(agentScriptCCOutPath in agentScriptCC).value)
+        Translate((agentScriptCC / agentScriptCCPath).value,(agentScriptCC / agentScriptCCOutPath).value)
       },
       agentScriptCCPath in agentScriptCC := (baseDirectory).value / "src" / "main" / "asl",
       agentScriptCCOutPath in agentScriptCC := (sourceManaged).value
@@ -65,7 +65,5 @@ object Translate {
            $code""")
           output
         })
-
-
   }
 }
